@@ -10,3 +10,7 @@ CNAME, www.vardhaman.org, vardhaman.org
 CNAME, outlook.vardhaman.org, vardhaman.org
 CNAME, faculty.vardhaman.org, vardhaman.org
 CNAME, alumni.vardhaman.org, vardhaman.org
+
+NS, ns1.example.com, 10.0.0.23
+MX, mail.example.com, 10.0.0.24
+CNAME, mail.example.com, example.com
