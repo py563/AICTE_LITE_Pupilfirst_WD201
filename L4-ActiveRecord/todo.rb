@@ -42,10 +42,10 @@ class Todo < ActiveRecord::Base
   end
 
   def self.add_task(todo_item)
-    return "item added"
+    Todo.create!(todo_text: todo_item[:todo_text], due_date: Date.today + todo_item[:due_in_days], completed: false)
   end
 
-  def self.mark_as_complete(tode_item_id)
-    return "marked as complete"
+  def self.mark_as_complete(completed_item_id)
+    Todo.update(completed_item_id, completed: true)
   end
 end
