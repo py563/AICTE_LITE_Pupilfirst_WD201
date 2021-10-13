@@ -65,3 +65,7 @@ yarn-debug.log*
 # Ignore uploaded files in development
 /storage/*
 !/storage/.keep
+
+# user custom files
+/L4-ActiveRecord/gems_installed.txt
+/L4-ActiveRecord/test-*
