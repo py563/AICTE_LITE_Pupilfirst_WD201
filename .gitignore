@@ -69,3 +69,4 @@ yarn-debug.log*
 # user custom files
 /L4-ActiveRecord/gems_installed.txt
 /L4-ActiveRecord/test-*
+.vscode/settings.json
